@@ -1,6 +1,6 @@
 import React from 'react';
 import { Redirect } from 'react-router-dom';
-import firebase from './firebase';
+import firebase from 'firebase';
 import LoadingOverlay from 'react-loading-overlay';
 
 class Auth extends React.Component {
@@ -66,5 +66,4 @@ class Auth extends React.Component {
         }
     }
 }
-
 export default Auth;

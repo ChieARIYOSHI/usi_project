@@ -1,4 +1,5 @@
 import React,{useState} from 'react';
+import { Link } from 'react-router-dom';
 import {db} from '../firebase';
 
 const UploadMeat = () => {
@@ -39,9 +40,15 @@ const [detail, setDetail] =useState()
       <input onChange={(e)=>{
         setDetail(e.target.value)
       }}></input>
+      <br/>
+      <br/>
       <button onClick={()=>{
         PushData()
-      }} >出　品</button>
+      }} >
+        <Link to="/done">
+          出　品
+        </Link>
+      </button>
     </div>
   );
 };
