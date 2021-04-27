@@ -1,0 +1,28 @@
+.head {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  position: absolute;
+  left: 15px;
+}
+
+.head button {
+  margin-left: 20px;
+}
+
+.farmers_btn {
+  width: 180px;
+  height: 30px;
+  border-radius: 30px;
+  color: white;
+  /* font-weight: bolder; */
+  text-decoration: none;
+  background-color: rgb(172, 196, 118);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

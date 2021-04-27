@@ -1,0 +1,92 @@
+.toppage {
+  width: 100%;
+  height: auto;
+  background: url(../img/toppage_image.jpeg);
+  background-size: cover;
+}
+
+.toppage h1 {
+  color: whitesmoke;
+  margin: 10px 50px;
+}
+
+.title_line_1 {
+  padding-top: 140px;
+}
+
+.bannar {
+  color: white;
+  text-decoration: none;
+  background-color: rgb(172, 196, 118);
+  display: flex;
+  justify-content: space-around;
+}
+
+.eat_btn {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.eat_btn:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.live_btn {
+  text-align: center;
+}
+
+.live_btn:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.main_1 {
+  display: flex;
+  height: 450px;
+}
+
+.subtitle_1 {
+  color: rgb(95, 95, 95);
+  margin: 20px 50px;
+}
+
+.message_1 {
+  position: absolute;
+  left: 200px;
+  color: gray;
+  line-height: 2em;
+  margin: 120px 10px 0px;
+}
+
+.subtitle_2, .subtitle_3 {
+  font-size: 16px;
+  text-align: left;
+  padding: 0px;
+  color: rgb(95, 95, 95);
+  margin: 10px 50px;
+}
+
+.message_2, .message_3 {
+  color: gray;
+  line-height: 2em;
+  margin: 10px 50px;
+}
+
+.main_4 {
+  height: 450px;
+  background-color: rgb(172, 196, 118);
+  color: white;
+}
+
+.subtitle_4 {
+  padding: 10px 50px;
+}
+
+.message_4 {
+  line-height: 2em;
+  padding: 0px 50px;
+}

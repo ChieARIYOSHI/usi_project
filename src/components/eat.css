@@ -1,0 +1,68 @@
+.rogo{
+    padding-top: 100px;
+    padding-left: 10%;
+}
+
+.subtitle{
+    font-size:40pt;
+    color: gray;
+    line-height: 1.2;
+    letter-spacing: 0.2em;
+    padding-left: 10%;
+    border-left: solid 20px green；
+    
+}
+
+h2{
+   position:relative;
+}
+
+.top_text{
+    font-size:20pt;
+    color: gray;
+    line-height: 1.2;
+    letter-spacing: 0.2em;
+    padding-left: 10%;
+}
+
+
+
+.main_2{
+    padding-top: 40px;
+
+}
+
+.subtitle_2{
+    font-size:40pt;
+    color: gray;
+    line-height: 1.2;
+    letter-spacing: 0.2em;
+    padding-left: 10%;
+        text-align: center;
+    padding-top: 40px;
+
+}
+
+.text_1{
+    font-size:15pt;
+    color: gray;
+    line-height: 1.2;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+
+
+
+/* h2::before{
+   content:"";
+   display:inline-block;
+   width:3px;
+   height:40px;
+   background-color:#0097A7;
+   position:absolute;
+   top:-2px;
+   left:-5px;
+} */
+
+/* border-left: solid 20px green; */

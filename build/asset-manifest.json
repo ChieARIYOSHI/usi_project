@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.30fe51ee.chunk.css",
+    "main.js": "/static/js/main.0819f619.chunk.js",
+    "main.js.map": "/static/js/main.0819f619.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.50f86c83.js",
+    "runtime-main.js.map": "/static/js/runtime-main.50f86c83.js.map",
+    "static/js/2.88ab6697.chunk.js": "/static/js/2.88ab6697.chunk.js",
+    "static/js/2.88ab6697.chunk.js.map": "/static/js/2.88ab6697.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.30fe51ee.chunk.css.map": "/static/css/main.30fe51ee.chunk.css.map",
+    "static/js/2.88ab6697.chunk.js.LICENSE.txt": "/static/js/2.88ab6697.chunk.js.LICENSE.txt",
+    "static/media/logo_kuro.32c85003.png": "/static/media/logo_kuro.32c85003.png",
+    "static/media/logo_shiro.5e6568b2.png": "/static/media/logo_shiro.5e6568b2.png",
+    "static/media/toppage_eat.40341bc4.jpeg": "/static/media/toppage_eat.40341bc4.jpeg",
+    "static/media/toppage.css": "/static/media/toppage_image.51ffbd91.jpeg",
+    "static/media/toppage_live.d5611e0a.jpeg": "/static/media/toppage_live.d5611e0a.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50f86c83.js",
+    "static/js/2.88ab6697.chunk.js",
+    "static/css/main.30fe51ee.chunk.css",
+    "static/js/main.0819f619.chunk.js"
+  ]
+}
