@@ -4,65 +4,154 @@
 }
 
 .subtitle{
-    font-size:40pt;
+    font-size:36pt;
     color: gray;
     line-height: 1.2;
     letter-spacing: 0.2em;
     padding-left: 10%;
-    border-left: solid 20px green；
-    
-}
+    border-left: solid 20px green；}
 
 h2{
    position:relative;
 }
 
-.top_text{
-    font-size:20pt;
-    color: gray;
-    line-height: 1.2;
-    letter-spacing: 0.2em;
-    padding-left: 10%;
-}
-
-
+.massage_01{
+  position: absolute;
+  padding-left: 10%;
+  padding-right: 30%;
+  padding-bottom: 100px;
+  color: gray;
+  line-height: 2em;
+  /* margin: 10px 50px; */
+  }
 
 .main_2{
     padding-top: 40px;
 
 }
 
-.subtitle_2{
+.sen_2{
+    color: gray;
+    text-align: center;
+    padding-top: 300px;
+
+}
+
+.text_1{
     font-size:40pt;
     color: gray;
     line-height: 1.2;
     letter-spacing: 0.2em;
     padding-left: 10%;
-        text-align: center;
-    padding-top: 40px;
-
+    margin-top: 15%;
 }
 
-.text_1{
+.text_2{
     font-size:15pt;
     color: gray;
     line-height: 1.2;
     letter-spacing: 0.2em;
-    text-align: center;
+    padding-left: 10%;
+    margin-top: 3%;
+}
+
+.typetext_1{
+    font-size:25pt;
+    color: gray;
+    line-height: 1.2;
+    letter-spacing: 0.2em;
+    padding-left: 10%;
+    margin-top: 10%;
+}
+
+.typetext_1_2{
+    font-size:15pt;
+    color: gray;
+    line-height: 1.2;
+    letter-spacing: 0.2em;
+    padding-left: 10%;
+    margin-top: 0%;
+}
+
+/* .type_1{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 7%;
+
+} */
+
+.typePhoto_1{
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+.bar_btn{
+    margin: 5%;
+    font-family: "Yu Gothic", YuGothic, Verdana, 'Hiragino Kaku Gothic ProN','Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'メイリオ', Meiryo, sans-serif;
+  text-align: center;
+  padding-top: 40px;  
+} 
+.sen_1{
+    width:70%
+}
+
+
+
+/* ここから下がボタンのCSS　*/
+.btn-border {
+  display: inline-block;
+  max-width: 180px;
+  text-align: left;
+  border: 2px solid#89b9a1;
+  font-size: 16px;
+  color: #89b9a1;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: .4s;
+  margin-left: 5%;
+}
+
+.btn-border:hover {
+  background-color: #89b9a1;
+  border-color: #89b9a1;
+  color: #FFF;
+}
+
+.typePhoto_2{
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.typePhoto_4{
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.typePhoto_3{
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.box {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.pict_type_5 {
+  width: 50%;
+  margin-left: 10%;
+}
+
+.typetext_1_1{
+    margin-right: 15%;
 }
 
 
 
 
-/* h2::before{
-   content:"";
-   display:inline-block;
-   width:3px;
-   height:40px;
-   background-color:#0097A7;
-   position:absolute;
-   top:-2px;
-   left:-5px;
-} */
-
-/* border-left: solid 20px green; */

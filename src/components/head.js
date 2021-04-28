@@ -1,7 +1,7 @@
 import React from 'react';
 // import ReactDOM from 'react-dom';
 import { makeStyles } from '@material-ui/core/styles';
-import SlideRoutes from "react-slide-routes";
+// import SlideRoutes from "react-slide-routes";
 import { Route, NavLink, useLocation } from "react-router-dom";
 import TopPage from './toppage';
 import RouteFarmers from './route_farmers'
@@ -23,7 +23,7 @@ const Head = () => {
   
   // export default function TextButtons() {
     const classes = useStyles();
-    const location = useLocation();
+    // const location = useLocation();
 
   return (
     <div>
@@ -34,10 +34,10 @@ const Head = () => {
         </nav>
       </div>
       <div>
-        <SlideRoutes location={location} duration={500}>
+        {/* <SlideRoutes location={location} duration={500}> */}
           <Route path="/" component={TopPage} exact />
           <Route path="/signup" component={RouteFarmers} />
-        </SlideRoutes>
+        {/* </SlideRoutes> */}
       </div>
     </div>
   )};

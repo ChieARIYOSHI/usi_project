@@ -10,6 +10,7 @@ import MoreVertIcon from '@material-ui/icons/MoreVert';
 import SlideRoutes from "react-slide-routes";
 import { Route, NavLink, useLocation, Link } from "react-router-dom";
 import TopPage from './toppage';
+import Eat from './eat';
 import SignUp from './signup';
 // import UploadMeat from './upload_meat';
 
@@ -92,6 +93,7 @@ export default function LongMenu() {
       <div>
         <SlideRoutes location={location} duration={500}>
           <Route path="/" component={TopPage} exact />
+          <Route path="/eat" component={Eat} />
           <Route path="/signup" component={RouteFarmers} />
         </SlideRoutes>
       </div>

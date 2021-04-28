@@ -3,8 +3,8 @@ import imagePhoto from './../img/toppage_image.jpeg';
 import imageEat from './../img/toppage_eat.jpeg';
 import imageLive from './../img/toppage_live.jpeg';
 import SlideRoutes from "react-slide-routes";
-import { Route, NavLink, useLocation } from "react-router-dom";
-// import Head from './head_02';
+import { Route, NavLink } from "react-router-dom";
+import RouteFarmers from './route_farmers'
 import Eat from './eat';
 import logo from './../img/logo_shiro.png';
 import './toppage.css'
@@ -21,7 +21,7 @@ const TopPage = () => {
       <div className="bannar">
         <nav>
           <NavLink to="/eat">
-            <div  className="eat_btn">
+            <div className="eat_btn">
               <h2>たべる</h2>
               <h4>あなた好みのお肉を選ぶ</h4>
             </div>
@@ -135,17 +135,17 @@ const TopPage = () => {
   );
 };
 
-const App = () => {
-  const location = useLocation();
+const ToEat = () => {
+  // const location = useLocation();
 
   return (
     <div>
-      <SlideRoutes location={location} duration={500}>
+      {/* <SlideRoutes location={location} duration={500}> */}
         <Route path="/" component={TopPage} exact />
         <Route path="/eat" component={Eat} />
-      </SlideRoutes>
+      {/* </SlideRoutes> */}
     </div>
   );
 };
 
-export default App
+export default ToEat
