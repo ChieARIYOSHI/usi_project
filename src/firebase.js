@@ -3,7 +3,7 @@ import "firebase/firestore";
 import "firebase/auth";
 
 const firebaseApp = firebase.initializeApp({
-  apiKey: "",
+  apiKey: "AIzaSyC0a2EliiICqadX5GvL4W8-66LkU7zN4D4",
   authDomain: "usi-project-farmers.firebaseapp.com",
   databaseURL: "https://usi-project-farmers-default-rtdb.firebaseio.com",
   projectId: "usi-project-farmers",
@@ -19,3 +19,4 @@ const db = firebaseApp.firestore().collection('farmers_meat');
 const storage = firebase.storage();
 
 export { db, storage };
+export default firebase

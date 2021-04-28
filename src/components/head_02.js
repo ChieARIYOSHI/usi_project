@@ -55,7 +55,7 @@ export default function LongMenu() {
   return (
     <div>
       <div className="head">
-        <Link to="/eat">
+        <Link to="/">
           <img src={logo} className="logo" width="120px" alt="logo" />
         </Link>
         <nav className="farmers_btn">

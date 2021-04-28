@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import { Link } from 'react-router-dom';
-import {db} from '../firebase';
+import firebase, {db} from '../firebase';
 
 const UploadMeat = () => {
 const [farm, setFarm] =useState()
@@ -16,6 +16,7 @@ const [detail, setDetail] =useState()
         price: price,
         gram: gram,
         detail: detail,
+        createdAt: firebase.firestore.FieldValue.serverTimestamp(),
     });
   }
   return(

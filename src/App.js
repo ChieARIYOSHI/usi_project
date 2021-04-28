@@ -1,4 +1,5 @@
 import Head from './components/head_02';
+// import Head from './components/sell_meat';
 import TopPage from './components/toppage.js';
 // import Eat from './components/eat.js';
 // import Login from './components/login.js';
