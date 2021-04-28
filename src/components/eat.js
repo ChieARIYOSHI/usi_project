@@ -2,7 +2,7 @@ import React from 'react';
 import rogo from './../img/eat_1.jpg';
 import './eat.css';
 
-const Head = () => {
+const Eat = () => {
     return (
     <div>
         <img src={rogo} className="rogo" width="100%" alt="logo" margin-top="100px 0" />
@@ -41,20 +41,4 @@ const Head = () => {
     </div>
 )};
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-export default Head
+export default Eat

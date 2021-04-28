@@ -5,7 +5,7 @@ const Done = () => {
   return (
     <div>
       <p>出品ありがとうございました！</p>
-      <Link to="/">Homeへ</Link>
+      <Link to="/">出品入力画面へ</Link>
     </div>
   )};
 

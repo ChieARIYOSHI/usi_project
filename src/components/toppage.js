@@ -4,6 +4,7 @@ import imageEat from './../img/toppage_eat.jpeg';
 import imageLive from './../img/toppage_live.jpeg';
 import SlideRoutes from "react-slide-routes";
 import { Route, NavLink, useLocation } from "react-router-dom";
+// import Head from './head_02';
 import Eat from './eat';
 import logo from './../img/logo_shiro.png';
 import './toppage.css'
@@ -144,6 +145,7 @@ const App = () => {
         <Route path="/eat" component={Eat} />
       </SlideRoutes>
     </div>
-  )};
+  );
+};
 
 export default App

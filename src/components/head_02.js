@@ -8,12 +8,13 @@ import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import SlideRoutes from "react-slide-routes";
-import { Route, NavLink, useLocation } from "react-router-dom";
+import { Route, NavLink, useLocation, Link } from "react-router-dom";
 import TopPage from './toppage';
 import SignUp from './signup';
 // import UploadMeat from './upload_meat';
 
 import './head.css'
+import RouteFarmers from './route_farmers';
 
 // ナビゲーションボタン
 const options = [
@@ -53,7 +54,9 @@ export default function LongMenu() {
   return (
     <div>
       <div className="head">
-        <img src={logo} className="logo" width="120px" alt="logo" />
+        <Link to="/eat">
+          <img src={logo} className="logo" width="120px" alt="logo" />
+        </Link>
         <nav className="farmers_btn">
           <NavLink to="/signup">牧場の方はこちら</NavLink>
         </nav>
@@ -89,7 +92,7 @@ export default function LongMenu() {
       <div>
         <SlideRoutes location={location} duration={500}>
           <Route path="/" component={TopPage} exact />
-          <Route path="/signup" component={SignUp} />
+          <Route path="/signup" component={RouteFarmers} />
         </SlideRoutes>
       </div>
     </div>

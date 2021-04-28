@@ -30,13 +30,13 @@ const Head = () => {
       <div className="head">
         <img src={logo} className="logo" width="120px" alt="logo" />
         <nav className="farmers_btn">
-          <NavLink to="/farmers">牧場の方はこちら</NavLink>
+          <NavLink to="/signup">牧場の方はこちら</NavLink>
         </nav>
       </div>
       <div>
         <SlideRoutes location={location} duration={500}>
           <Route path="/" component={TopPage} exact />
-          <Route path="/farmers" component={RouteFarmers} />
+          <Route path="/signup" component={RouteFarmers} />
         </SlideRoutes>
       </div>
     </div>
