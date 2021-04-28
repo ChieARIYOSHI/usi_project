@@ -3,7 +3,7 @@ import "firebase/firestore";
 import "firebase/auth";
 
 const firebaseApp = firebase.initializeApp({
-  apiKey: "AIzaSyC0a2EliiICqadX5GvL4W8-66LkU7zN4D4",
+  apiKey: "",
   authDomain: "usi-project-farmers.firebaseapp.com",
   databaseURL: "https://usi-project-farmers-default-rtdb.firebaseio.com",
   projectId: "usi-project-farmers",
