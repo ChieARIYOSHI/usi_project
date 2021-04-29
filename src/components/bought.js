@@ -5,7 +5,7 @@ const Bought = () => {
   return (
     <div>
       <p>購入ありがとうございました！</p>
-      <Link to="/sellmeat">一覧画面へ</Link>
+      <Link to="/shop">一覧画面へ</Link>
     </div>
   )};
 

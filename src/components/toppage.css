@@ -1,17 +1,22 @@
 .toppage {
-  width: 100%;
-  height: auto;
   background: url(../img/toppage_image.jpeg);
   background-size: cover;
 }
-
 .toppage h1 {
   color: whitesmoke;
   margin: 10px 50px;
 }
 
 .title_line_1 {
-  padding-top: 140px;
+  color: whitesmoke;
+	text-align: right;
+  padding-top: 30%   
+}
+.title_line_2{
+  text-align: left;
+  display: inline-block;
+  font-size: 40px;
+  letter-spacing: 0.1em;
 }
 
 .bannar {
@@ -46,12 +51,16 @@
 
 .main_1 {
   display: flex;
-  height: 450px;
+  min-width: 300px;
+  /* height: 450px; */
+  margin-bottom: 10%;
 }
 
 .subtitle_1 {
   color: rgb(95, 95, 95);
-  margin: 20px 50px;
+  margin-left: 10%;
+  font-size: 28px;
+  letter-spacing: 0.6em;
 }
 
 .message_1 {
@@ -60,33 +69,121 @@
   color: gray;
   line-height: 2em;
   margin: 120px 10px 0px;
+  margin-right: 10%;
+  margin-left: 25%;
+  
+}
+
+.imagephoto_2{
+  margin-top: 10%;
+  width: auto;    
+  height: 700px;
+  margin-left: 10%;
+}
+.imagephoto_3{
+  margin-top: 10%;
+  width: auto;    
+  height: 700px;
+  margin-right: 10%;
 }
 
 .subtitle_2, .subtitle_3 {
   font-size: 16px;
   text-align: left;
-  padding: 0px;
   color: rgb(95, 95, 95);
   margin: 10px 50px;
+  margin-left: 10%;
+  margin-top: 10%;
+  font-size: 25px;
 }
 
 .message_2, .message_3 {
   color: gray;
   line-height: 2em;
   margin: 10px 50px;
+  margin-left: 10%;
+  width: 70%;
 }
 
 .main_4 {
-  height: 380px;
-  background-color: rgb(172, 196, 118);
+  height: 700px;
+  background-color: #89b9a1;
   color: white;
 }
 
 .subtitle_4 {
-  padding: 5px 50px;
+  padding: 70px 0px;
+  margin-top: 5%;
+  letter-spacing: 0.3em;
+  margin-left: 10%;
 }
 
 .message_4 {
   line-height: 2em;
-  padding: 0px 50px;
+}
+.message_4_2{
+  font-size: 20px;
+  width: 60%;
+  margin-left: 10%;
+}
+
+.imageUsi{
+  width: 20%;
+  margin-left: 75%;
+}
+
+.usi_left{
+  
+}
+.eat_1{
+  text-align: center;
+  color: gray;
+  line-height: 0.1em
+
+}
+.eat_2{
+  text-align: center;
+  color: gray;
+  line-height: 2em; 
+  margin-top: 50px;
+  font-size: 40px;
+  margin-bottom: -20px;
+}
+.eat_3{
+  text-align: center;
+  color: gray;
+  line-height: 2em; 
+  text-decoration: underline;
+}
+.eat_4{
+  margin-top: 80px;
+}
+
+.grow_1{
+  text-align: center;
+  color: gray;
+  line-height: 0.1em  
+}
+.grow_2{
+  text-align: center;
+  color: gray;
+  line-height: 2em; 
+  font-size: 40px;
+  margin-bottom: -20px;
+}
+.grow_3{
+  text-align: center;
+  color: gray;
+  line-height: 2em; 
+  text-decoration: underline;
+}
+.grow_4{
+  margin-top: 80px;
+}
+.footer{
+  color: gray;
+  line-height: 1.3em; 
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-bottom: 5%;
 }

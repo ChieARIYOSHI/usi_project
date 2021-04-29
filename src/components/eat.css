@@ -12,22 +12,21 @@
     border-left: solid 20px green；}
 
 h2{
-   position:relative;
+    position:relative;
 }
 
 .massage_01{
-  position: absolute;
-  padding-left: 10%;
-  padding-right: 30%;
-  padding-bottom: 100px;
-  color: gray;
-  line-height: 2em;
-  /* margin: 10px 50px; */
-  }
+    position: absolute;
+    padding-left: 10%;
+    padding-right: 30%;
+    padding-bottom: 100px;
+    color: gray;
+    line-height: 2em;
+    /* margin: 10px 50px; */
+}
 
 .main_2{
     padding-top: 40px;
-
 }
 
 .sen_2{
@@ -89,35 +88,35 @@ h2{
 .bar_btn{
     margin: 5%;
     font-family: "Yu Gothic", YuGothic, Verdana, 'Hiragino Kaku Gothic ProN','Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'メイリオ', Meiryo, sans-serif;
-  text-align: center;
-  padding-top: 40px;  
+    text-align: center;
+    padding-top: 40px;  
 } 
+
 .sen_1{
     width:70%
 }
 
-
-
 /* ここから下がボタンのCSS　*/
 .btn-border {
-  display: inline-block;
-  max-width: 180px;
-  text-align: left;
-  border: 2px solid#89b9a1;
-  font-size: 16px;
-  color: #89b9a1;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 8px 16px;
-  border-radius: 4px;
-  transition: .4s;
-  margin-left: 5%;
+    display: inline-block;
+    max-width: 180px;
+    text-align: left;
+    border: 2px solid#89b9a1;
+    font-size: 16px;
+    color: #89b9a1;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: .4s;
+    margin-left: 5%;
+    margin-bottom: 5%;
 }
 
 .btn-border:hover {
-  background-color: #89b9a1;
-  border-color: #89b9a1;
-  color: #FFF;
+    background-color: #89b9a1;
+    border-color: #89b9a1;
+    color: #FFF;
 }
 
 .typePhoto_2{
@@ -137,21 +136,17 @@ h2{
 }
 
 .box {
-  display:flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 40px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .pict_type_5 {
-  width: 50%;
-  margin-left: 10%;
+    width: 50%;
+    margin-left: 10%;
 }
 
 .typetext_1_1{
     margin-right: 15%;
 }
-
-
-
-

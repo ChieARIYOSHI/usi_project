@@ -11,6 +11,8 @@ import SlideRoutes from "react-slide-routes";
 import { Route, NavLink, useLocation, Link } from "react-router-dom";
 import TopPage from './toppage';
 import Eat from './eat';
+import Shop from './shop';
+import Bought from './bought';
 import SignUp from './signup';
 // import UploadMeat from './upload_meat';
 
@@ -94,6 +96,8 @@ export default function LongMenu() {
         <SlideRoutes location={location} duration={500}>
           <Route path="/" component={TopPage} exact />
           <Route path="/eat" component={Eat} />
+          <Route path="/shop" component={Shop} />
+          <Route path="/bought" component={Bought} />
           <Route path="/signup" component={RouteFarmers} />
         </SlideRoutes>
       </div>

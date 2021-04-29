@@ -10,6 +10,10 @@ import typePhoto_4 from './../img/eat_type_4.png';
 import typePhoto_5 from './../img/eat_type_5.jpeg';
 import typePhoto_6 from './../img/eat_type_6.png';
 
+import { Route, NavLink } from "react-router-dom";
+import Head from './head';
+import Shop from './shop';
+
 import './eat.css';
 
 const Eat = () => (
@@ -48,8 +52,10 @@ const Eat = () => (
                     <img src={typePhoto_1} className="typePhoto_1" width="80%" margin="centa" />
                 </div>
                 <div className="bar_btn">
+                    <nav>
+                        <NavLink to="/shop" className="btn-border">生産地一覧から選ぶ</NavLink>
+                    </nav>
                     <img src={imagePhoto_1} className="sen_1" width="90%" margin="centa" />
-                    <a href="#" class="btn-border">生産地一覧から選ぶ</a>
                 </div>
 
             </div>
@@ -62,8 +68,10 @@ const Eat = () => (
 
                 <img src={typePhoto_2} className="typePhoto_1" width="90%" margin="centa" />
                 <div className="bar_btn">
+                    <nav>
+                        <NavLink to="/shop" className="btn-border">味の分析表から選ぶ</NavLink>
+                    </nav>
                     <img src={imagePhoto_1} className="sen_1" width="90%" margin="centa" />
-                    <a href="#" class="btn-border">味の分析表から選ぶ</a>
                 </div>
             </div>
 
@@ -74,20 +82,24 @@ const Eat = () => (
                 </div>
                 <img src={typePhoto_3} className="typePhoto_3" width="90%" margin="centa" />
                 <div className="bar_btn">
+                    <nav>
+                        <NavLink to="/shop" className="btn-border">飼料のタイプから選ぶ</NavLink>
+                    </nav>
                     <img src={imagePhoto_1} className="sen_1" width="90%" margin="centa" />
-                    <a href="#" class="btn-border">飼料のタイプから選ぶ</a>
                 </div>
             </div>
 
             <div className="type_4">
                 <div>
                     <h2 className="typetext_1">4.牛さんの種類から選ぶ</h2>
-
                 </div>
                 <img src={typePhoto_4} className="typePhoto_4" width="70%" margin="centa" />
-                <div className="bar_btn"></div>
-                <img src={imagePhoto_1} className="sen_1" width="90%" margin="centa" />
-                <a href="#" class="btn-border">牛さんの種類から選ぶ</a>
+                <div className="bar_btn">
+                    <nav>
+                        <NavLink to="/shop" className="btn-border">牛さんの種類から選ぶ</NavLink>
+                    </nav>
+                    <img src={imagePhoto_1} className="sen_1" width="90%" margin="centa" />
+                </div>
             </div>
         </div>
 
@@ -107,8 +119,10 @@ const Eat = () => (
                 </div>
             </div>
             <div className="bar_btn">
+                <nav>
+                    <NavLink to="/shop" className="btn-border">生産者さんで選ぶ</NavLink>
+                </nav>
                 <img src={imagePhoto_1} className="sen_1" width="90%" margin="centa" />
-                <a href="#" class="btn-border">生産者さんで選ぶ</a>
             </div>
         </div>
 
@@ -120,11 +134,23 @@ const Eat = () => (
                 <img src={typePhoto_6} className="typePhoto_3" width="90%" margin="centa" />
             </div>
             <div className="bar_btn">
+                <nav>
+                    <NavLink to="/shop" className="btn-border">牛さんの育て方から選ぶ</NavLink>
+                </nav>
                 <img src={imagePhoto_1} className="sen_1" width="90%" margin="centa" />
-                <a href="#" class="btn-border">牛さんの育て方から選ぶ</a>
             </div>
         </div>
     </div >
 );
 
-export default Eat
+const ToShop = () => {
+    // const location = useLocation();
+    return (
+        <div>
+            <Route path="/eat" component={Head} component={Eat} />
+            <Route path="/shop" component={Shop} />
+        </div>
+    );
+};
+
+export default ToShop
