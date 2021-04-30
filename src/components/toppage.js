@@ -119,11 +119,13 @@ const TopPage = () => {
         <div>
           <div className="eat_1">
             <div className="eat_4">
-              <a>
-                <h2 className="eat_2">たべる</h2>
-                <p className="eat_3">あなた好みのお肉を選ぶ</p>
-                <img src={imageEat} className="eat_image" width="500px" alt="meat photo" />
-              </a>
+              <nav>
+                <NavLink to="/eat">
+                  <h2 className="eat_2">たべる</h2>
+                  <p className="eat_3">あなた好みのお肉を選ぶ</p>
+                  <img src={imageEat} className="eat_image" width="500px" alt="meat photo" />
+                </NavLink>
+              </nav>
             </div>
           </div>
           <div>

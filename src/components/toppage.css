@@ -132,15 +132,18 @@
   margin-left: 75%;
 }
 
-.usi_left{
-  
-}
 .eat_1{
   text-align: center;
   color: gray;
   line-height: 0.1em
-
 }
+
+.eat_4:hover{
+  opacity: 0.5;
+  cursor: pointer;
+  cursor: hand;
+}
+
 .eat_2{
   text-align: center;
   color: gray;
@@ -157,6 +160,12 @@
 }
 .eat_4{
   margin-top: 80px;
+}
+
+.grow_4:hover{
+  opacity: 0.5;
+  cursor: pointer;
+  cursor: hand;
 }
 
 .grow_1{
